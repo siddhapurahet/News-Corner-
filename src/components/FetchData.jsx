@@ -9,8 +9,8 @@ const FetchData = ({ cat }) => {
     await axios
       .get(
         cat
-          ? `https://newsapi.org/v2/top-headlines?country=in&category=${cat}&apiKey=80341ce997034709bbdf74f677de70d7`
-          : "https://newsapi.org/v2/top-headlines?country=in&category=bussiness&apiKey=80341ce997034709bbdf74f677de70d7"
+          ? `http://newsapi.org/v2/top-headlines?country=in&category=${cat}&apiKey=80341ce997034709bbdf74f677de70d7`
+          : "http://newsapi.org/v2/top-headlines?country=in&category=bussiness&apiKey=80341ce997034709bbdf74f677de70d7"
       )
       .then((res) => setData(res.data.articles));
   };
