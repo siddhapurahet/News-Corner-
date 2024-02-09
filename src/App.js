@@ -11,11 +11,11 @@ function App() {
         <Navbar />
         <Routes>
           {/* <Route path="/general" element={<FetchData/>}/> */}
-          <Route path="/business" element={<FetchData cat="business"/>}/>
-          <Route path="/entertainment" element={<FetchData cat="entertainment"/>}/>
-          <Route path="/general" element={<FetchData cat="general"/>}/>
-          <Route path="/science" element={<FetchData cat="science"/>}/>
-          <Route path="/sports" element={<FetchData cat="sports"/>}/>
+          <Route path="/business" element={<FetchData cat="America"/>}/>
+          <Route path="/entertainment" element={<FetchData cat="Canada"/>}/>
+          <Route path="/general" element={<FetchData cat="United Kingdom"/>}/>
+          <Route path="/science" element={<FetchData cat="India"/>}/>
+          <Route path="/sports" element={<FetchData cat="China"/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
