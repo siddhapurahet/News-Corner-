@@ -60,16 +60,16 @@ const Navbar = () => {
               className="nav-item active text-white"
               style={{ paddingLeft: "20px" }}
             >
-              <Link className="nav-link text-white" to="/uk">
-                United Kingdom
+              <Link className="nav-link text-white" to="/science">
+                Science
               </Link>
             </li>
             <li
               className="nav-item active text-white"
               style={{ paddingLeft: "20px" }}
             >
-              <Link className="nav-link text-white" to="/india">
-                India
+              <Link className="nav-link text-white" to="/sports">
+                Sports
               </Link>
             </li>
           </ul>
