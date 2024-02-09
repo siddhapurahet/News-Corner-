@@ -44,32 +44,32 @@ const Navbar = () => {
               className="nav-item active text-white"
               style={{ paddingLeft: "20px" }}
             >
-              <Link className="nav-link text-white" to="/business">
-                Business
+              <Link className="nav-link text-white" to="/us">
+                United States
               </Link>
             </li>
             <li
               className="nav-item active text-white"
               style={{ paddingLeft: "20px" }}
             >
-              <Link className="nav-link text-white" to="/entertainment">
-                Entertainment
+              <Link className="nav-link text-white" to="/canada">
+                Canada
               </Link>
             </li>
             <li
               className="nav-item active text-white"
               style={{ paddingLeft: "20px" }}
             >
-              <Link className="nav-link text-white" to="/science">
-                Science
+              <Link className="nav-link text-white" to="/uk">
+                United Kingdom
               </Link>
             </li>
             <li
               className="nav-item active text-white"
               style={{ paddingLeft: "20px" }}
             >
-              <Link className="nav-link text-white" to="/sports">
-                Sports & Technology
+              <Link className="nav-link text-white" to="/india">
+                India
               </Link>
             </li>
           </ul>
