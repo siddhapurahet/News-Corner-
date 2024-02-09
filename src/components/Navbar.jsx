@@ -44,16 +44,16 @@ const Navbar = () => {
               className="nav-item active text-white"
               style={{ paddingLeft: "20px" }}
             >
-              <Link className="nav-link text-white" to="/us">
-                United States
+              <Link className="nav-link text-white" to="/business">
+                Business
               </Link>
             </li>
             <li
               className="nav-item active text-white"
               style={{ paddingLeft: "20px" }}
             >
-              <Link className="nav-link text-white" to="/canada">
-                Canada
+              <Link className="nav-link text-white" to="/entertainment">
+                Entertainment
               </Link>
             </li>
             <li
