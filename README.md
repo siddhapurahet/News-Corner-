@@ -7,6 +7,8 @@
     --> Navbar.jsx - contains the code for Routing to various categories such as General, Sports, Science, Business etc. The use od Navbar is for using the concept of ReactBrowser, Routes and ROute so that responsed from the API can be showen based on the category.
 <br>
 
+Note: the code is in the other branch ( master ) <br>
+
 --> Libraries Used :<br>
 &nbsp;  --> BrowserRouter, Routes, Route - for navigating user based on the category.<br>
 &nbsp;  --> axios - for making an API call.<br>
