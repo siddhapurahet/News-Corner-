@@ -9,7 +9,7 @@ const FetchData = ({ cat }) => {
     await axios
       .get(
         cat
-          ? `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=80341ce997034709bbdf74f677de70d7`
+          ? `https://newsapi.org/v2/top-headlines?country=us&category=${cat}&apiKey=80341ce997034709bbdf74f677de70d7`
           : "https://newsapi.org/v2/everything?q=apple&from=2024-02-08&to=2024-02-08&sortBy=popularity&apiKey=80341ce997034709bbdf74f677de70d7"
       )
       .then((res) => setData(res.data.articles));
